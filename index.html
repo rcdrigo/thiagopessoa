@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thiago Pessoa Corretora de Seguros</title>
+  <meta name="description" content="Thiago Pessoa Corretora de Seguros — soluções em seguros de vida, auto, residencial e empresarial." />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+    }
+    header {
+      background: linear-gradient(135deg, #0f3a67 0%, #1e5a8e 100%);
+      color: #fff;
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2rem; margin-bottom: .5rem; }
+    header p { font-size: 1.1rem; opacity: .9; }
+    main { max-width: 960px; margin: -2rem auto 0; padding: 0 1.5rem 3rem; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 24px rgba(15, 58, 103, 0.08);
+      margin-bottom: 1.5rem;
+    }
+    h2 { color: #0f3a67; font-size: 1.4rem; margin-bottom: 1rem; }
+    p { margin-bottom: 1rem; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-top: 1rem; }
+    .service {
+      padding: 1.25rem;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      background: #f9fafb;
+    }
+    .service strong { display: block; color: #0f3a67; margin-bottom: .35rem; }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+    .info-item { padding: 1rem; background: #f9fafb; border-left: 3px solid #0f3a67; border-radius: 4px; }
+    .info-item span { display: block; font-size: .85rem; color: #6b7280; text-transform: uppercase; letter-spacing: .5px; margin-bottom: .25rem; }
+    .info-item strong { font-size: 1rem; color: #111827; }
+    footer { text-align: center; padding: 2rem 1.5rem; font-size: .9rem; color: #6b7280; border-top: 1px solid #e5e7eb; background: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Thiago Pessoa Corretora de Seguros</h1>
+    <p>Proteção e tranquilidade para você, sua família e seu negócio</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Sobre nós</h2>
+      <p>A <strong>Thiago Pessoa Corretora de Seguros LTDA</strong> atua na intermediação de seguros, oferecendo assessoria personalizada para encontrar a melhor solução de proteção para cada cliente. Trabalhamos com as principais seguradoras do mercado, garantindo cotações justas e um atendimento transparente.</p>
+    </section>
+
+    <section class="card">
+      <h2>Nossos seguros</h2>
+      <div class="services">
+        <div class="service"><strong>Seguro Auto</strong>Proteção completa para seu veículo com assistência 24 horas.</div>
+        <div class="service"><strong>Seguro de Vida</strong>Segurança financeira para quem você ama.</div>
+        <div class="service"><strong>Seguro Residencial</strong>Cobertura para incêndio, roubo e danos ao patrimônio.</div>
+        <div class="service"><strong>Seguro Empresarial</strong>Proteção para o seu negócio e sua continuidade operacional.</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Dados da empresa</h2>
+      <div class="info-grid">
+        <div class="info-item">
+          <span>Razão Social</span>
+          <strong>THIAGO PESSOA CORRETORA DE SEGUROS LTDA</strong>
+        </div>
+        <div class="info-item">
+          <span>CNPJ</span>
+          <strong>58.053.843/0001-36</strong>
+        </div>
+        <div class="info-item">
+          <span>Site</span>
+          <strong>www.thiagopessoa.com.br</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="y"></span> Thiago Pessoa Corretora de Seguros LTDA — CNPJ 58.053.843/0001-36. Todos os direitos reservados.
+    <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  </footer>
+</body>
+</html>
